@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #ffdd57;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+select, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+select {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+button {
+    background: #ff6f61;
+    color: white;
+}
+
+button:hover {
+    background: #ff3b2f;
+}
+
+/* Quiz Page Styles */
+#questions {
+    text-align: left;
+}
+
+.question {
+    margin-bottom: 1.5rem;
+}
+
+.question p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.question label {
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.question label:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Result Page Styles */
+#result-page p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+#result-page span {
+    font-weight: bold;
+    color: #ffdd57;
+}
