@@ -28,19 +28,6 @@ QuizMaster Pro is a **full-stack quiz application** built with **Node.js (Expres
 
 ---
 
-## Screenshots 📸
-
-### Homepage
-![Homepage](https://via.placeholder.com/600x400?text=Homepage)
-
-### Quiz Page
-![Quiz Page](https://via.placeholder.com/600x400?text=Quiz+Page)
-
-### Result Page
-![Result Page](https://via.placeholder.com/600x400?text=Result+Page)
-
----
-
 ## Installation 🚀
 
 1. **Clone the repository**:
